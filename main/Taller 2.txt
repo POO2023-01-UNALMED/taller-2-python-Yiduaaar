@@ -31,7 +31,7 @@ class Asientos :
 
 class Motor :
 
-    def _init (self,numerocilindros,tipo,registro3) :
+    def _init_ (self,numerocilindros,tipo,registro3) :
       self.numerocilindros = numerocilindros
       self.tipo = str
       self.refistro3 = registro3
@@ -39,7 +39,7 @@ class Motor :
     def _init_ (self,cambioregistro):
         self.cambioregistro = registro3
 
-    def _iniit_ (self,asignartipo):
+    def _init_ (self,asignartipo):
         self.asignartipo = asignartipo
         if asignartipo = "electrico" or "combustible" :
             self.tipo = asignartipo
