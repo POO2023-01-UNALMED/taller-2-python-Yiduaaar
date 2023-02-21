@@ -15,6 +15,7 @@ class Auto:
                     print (" Auto original")
                 else :
                     print ("Auto pirata")
+                    return (verificarintegridad)
 
 
                         
