@@ -7,14 +7,16 @@ class Auto:
         self.cantidadcreados = cantidadcreados
         self.asientos = 0
 
-        def _init_ (self,cantidadasientos):
+        def __init__ (self,cantidadasientos):
             self.asientos += cantidadasientos
+            return (asientos)
 
-        def _init_ (self,verificarintegridad) :
+        def __init__ (self,verificarintegridad) :
             if (self.registro1 == registro2 == registro3
                     print (" Auto original")
                 else :
                     print ("Auto pirata")
+                return (verificarintegridad)
 
 
                         
@@ -28,6 +30,7 @@ class Asientos :
        self.cambiocolor = cambiocolor
        if cambiocolor = "rojo" or "verde" or "amarillo" or "negro" or "blanco" :
            self.color = cambiocolor
+           
 
 class Motor :
 
@@ -39,7 +42,7 @@ class Motor :
     def __init__ (self,cambioregistro):
         self.cambioregistro = registro3
 
-    def __init__ (self,asignartipo):
+    def __iniit__ (self,asignartipo):
         self.asignartipo = asignartipo
         if asignartipo = "electrico" or "combustible" :
             self.tipo = asignartipo
