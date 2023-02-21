@@ -42,7 +42,7 @@ class Motor :
     def __init__ (self,cambioregistro):
         self.cambioregistro = registro3
 
-    def __iniit__ (self,asignartipo):
+    def __init__ (self,asignartipo):
         self.asignartipo = asignartipo
         if asignartipo = "electrico" or "combustible" :
             self.tipo = asignartipo
